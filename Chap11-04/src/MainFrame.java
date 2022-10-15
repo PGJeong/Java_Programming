@@ -45,6 +45,8 @@ public class MainFrame extends JFrame {
 			unitTf[i] = new JTextField(5);
 			unitTf[i].setBounds(80, 70 + 20 * (i + 1), 80, 20);
 			unitTf[i].setHorizontalAlignment(SwingConstants.CENTER);
+			unitTf[i].setEditable(false);
+			unitTf[i].setBackground(Color.WHITE);
 			
 			if (i < unit.length - 1) {
 				unitSel[i] = new JCheckBox("", true); // 처음부터 선택 상태인 체크박스 생성

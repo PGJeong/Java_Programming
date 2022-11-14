@@ -12,7 +12,7 @@ class Bubble implements Runnable { // Runnable 인터페이스
 	
 	@Override
 	public void run() {
-		ImageIcon img = new ImageIcon("C:\\Users\\PGJeong\\Desktop\\bubble.png");
+		ImageIcon img = new ImageIcon("bubble.png");
 		JLabel label = new JLabel(img);
 		label.setSize(60, 60);
 		label.setOpaque(false);
